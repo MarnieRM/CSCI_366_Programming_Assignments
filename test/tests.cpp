@@ -247,7 +247,7 @@ TEST_F(ClientFire, Creates_Fire_Message){
     string correct_shot = "{\n"
                           "    \"x\": 1,\n"
                           "    \"y\": 1\n"
-                          "}";
+                                  "}";
 
     ASSERT_EQ(0, get_diff_dist(correct_shot, "player_1.shot.json"));
 }
